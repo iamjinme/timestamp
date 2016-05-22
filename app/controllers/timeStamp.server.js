@@ -17,7 +17,7 @@ function Timestamp() {
                   "July", "August", "September",
                   "October", "November", "December"
     ];
-    return month[date.getMonth()] + ' ' + (date.getDate() + 1) + ", " + date.getFullYear();
+    return month[date.getMonth()] + ' ' + date.getDate() + ", " + date.getFullYear();
   }
   
   this.getTimestamp = function(date) {
